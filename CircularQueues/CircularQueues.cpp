@@ -51,6 +51,13 @@ public:
 			FRONT = -1;
 			REAR = -1;
 		}
+		else {
+			//JIka elemen yang di hapus berada di posisi terakhir array, kemballi ke awal array
+			if (FRONT == max - 1)
+				FRONT = 0;
+			else
+				FRONT = FRONT + 1;
+		}
 
 	}
 }; 
