@@ -117,7 +117,7 @@ int main() {
 			switch (ch) {
 			case '1': {
 				
-				q.insert();
+				q.insert(); 
 				break;
 			}
 			case '2': {
